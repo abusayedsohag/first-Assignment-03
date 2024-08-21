@@ -24,14 +24,73 @@
             extend: {
               colors: {
                 clifford: '#da373d',
-              }
-            }
-          }
+                'green-arrow': '#ABEF5F',
+                'body': '#F4F4F4',
+              },
+              fontFamily: {
+                Manrope: ['Manrope', 'sans-serif'],
+              },
+            },
+          },
         }
-    </script>
-    
+      </script>
+      
+
 </head>
-<body>
-    
+<body class="font-Manrope">
+    <!-- Header Section -->
+    <header class="bg-gradient-to-b from-white/0 to-white/100">
+        <!-- nav Section -->
+        <nav>
+            <div class="navbar bg-base-100 w-4/5 mx-auto">
+              <!-- First Logo -->
+                <div class="navbar-start">
+                  <i class="fa-solid fa-arrow-right -rotate-45 bg-green-arrow p-2 rounded-full"></i>
+                  <a class="btn btn-ghost text-3xl font-extrabold">Rinterio</a>
+                </div>
+                <!-- Menu Items -->
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class="text-gray-700 font-extrabold">Home</a></li>
+                    <li><a class="text-gray-500">Services</a></li>
+                    <li><a class="text-gray-500">Portfolio</a></li>
+                    <li><a class="text-gray-500">Blogs</a></li>
+                    <li><a class="text-gray-500">Contact Us</a></li>
+                  </ul>
+                </div>
+                <!-- Button Last -->
+                <div class="gap-4 hidden md:flex navbar-end">
+                  <i class="fa-solid fa-magnifying-glass bg-gray-200 p-3 rounded-full"></i>
+                  <i class="fa-solid fa-cart-shopping bg-gray-200 p-3 rounded-full"></i>
+                  <a class="btn rounded-full bg-green-arrow">Book Consult<i class="fa-solid fa-arrow-right -rotate-45 bg-black p-2 rounded-full text-white"></i></a>
+                </div>
+                <!-- Menu Dropdown -->
+                <div class="navbar-end lg:hidden ml-auto">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <i class="fa-solid fa-bars bg-gray-200 p-3 rounded-full"></i>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadowo">
+                      <li><a>Home</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>Blogs</a></li>
+                      <li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <!-- Main Section -->
+    <main>
+      
+    </main>
+    <!-- Footer Section -->
+    <footer>
+
+    </footer>
 </body>
 </html>
