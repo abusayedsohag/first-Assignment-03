@@ -223,47 +223,55 @@
           </div>
         </div>
       </section>
-      <!-- Article and News Section -->
-      <section>
+      <!-- Challange Section -->
+      <section class="bg-sky-300">
         <div class="w-4/5 mx-auto text-center py-8 lg:py-24">
-          <button class="bg-lime-100 px-4 py-2 rounded-3xl font-bold mb-3"><i class="fa-solid fa-arrow-right"></i> Explore our Latest works</button>
-          <h1 class="font-bold text-4xl">Our Latest Portfolio</h1>
+          <button class="bg-lime-100 px-4 py-2 rounded-3xl font-bold mb-3"><i class="fa-solid fa-arrow-right"></i> Enroll Now</button>
+          <h1 class="font-bold text-4xl">Our Present Course</h1>
           <br>
-          <p class="font-medium text-gray-500 w-auto mx-auto lg:w-3/5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          <p class="font-medium text-gray-500 w-auto mx-auto lg:w-3/5">A web development course covers HTML, CSS, JavaScript, frameworks, and best practices, teaching you to build and design functional websites.</p>
           <br>
           <!-- Card section -->
-          <div class="grid grid-cols-1 gap-6 text-left lg:grid-cols-12 lg:grid-rows-2">
+          <div class="flex justify-center">
             <!-- Card 1 -->
-             <div class="flex flex-col gap-6 bg-white border border-gray-200 p-6 rounded-2xl lg:flex-row lg:col-span-8">
-              <img src="./assets/img1.png" alt="img1">
-              <!-- Text Content -->
-              <div class="flex flex-col gap-4 lg:justify-between">
-                <h1 class="font-extrabold text-2xl">Commercial</h1>
-                <p class="font-medium text-gray-500">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
-                <h1 class="font-extrabold text-xl">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-green-arrow p-2 rounded-full"></i></h1>
+             <div class="grid grid-cols-2 gap-6 bg-white border border-gray-200 p-6 rounded-2xl">
+              <i class="fa-brands fa-html5 text-8xl text-orange-600"></i>
+              <i class="fa-brands fa-css3-alt text-8xl text-blue-700"></i>
+              <!-- CountDown Content -->
+              <div class="col-span-2">
+                <div class="grid grid-cols-2 gap-5 text-center lg:grid-cols-4">
+                  <!-- Days -->
+                  <div class="bg-blue-700 rounded-box text-white flex flex-col p-2">
+                    <span class="countdown font-mono text-5xl">
+                      <span style="--value:15;"></span>
+                    </span>
+                    days
+                  </div>
+                  <!-- Hours -->
+                  <div class="bg-yellow-400 rounded-box text-white flex flex-col p-2">
+                    <span class="countdown font-mono text-5xl">
+                      <span style="--value:10;"></span>
+                    </span>
+                    hours
+                  </div>
+                  <!-- Min -->
+                  <div class="bg-blue-500 rounded-box text-white flex flex-col p-2">
+                    <span class="countdown font-mono text-5xl">
+                      <span style="--value:24;"></span>
+                    </span>
+                    min
+                  </div>
+                  <!-- sec -->
+                  <div class="bg-orange-600 rounded-box text-white flex flex-col p-2">
+                    <span class="countdown font-mono text-5xl">
+                      <span style="--value:${counter};"></span>
+                    </span>
+                    sec
+                  </div>
+                </div>
               </div>
-             </div>
-            <!-- Card 2 -->
-             <div class="bg-white border border-gray-200 p-6 rounded-2xl lg:col-span-4">
-              <img src="./assets/img2.png" alt="img2" class="h-52 w-full xl:h-auto 2xl:h-60">
-             </div>
-            <!-- Card 3 -->
-             <div class="bg-white border border-gray-200 p-6 rounded-2xl lg:col-span-3">
-              <img src="./assets/img3.png" alt="img3" class="h-52 w-full xl:h-auto 2xl:h-60">
-             </div>
-            <!-- Card 4 -->
-             <div class="flex flex-col gap-6 bg-white border border-gray-200 p-6 rounded-2xl lg:col-span-6 lg:flex-row">
-              <img src="./assets/img4.png" alt="img4">
-              <!-- text Content -->
-              <div class="flex flex-col gap-3 lg:justify-between">
-                <h1 class="font-extrabold text-2xl">Commercial</h1>
-                <p class="font-medium text-sm text-gray-500">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
-                <h1 class="font-extrabold text-xl">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-green-arrow p-2 rounded-full"></i></h1>
-              </div>
-             </div>
-            <!-- Card 5 -->
-             <div class="relative bg-white border border-gray-200 p-6 rounded-2xl lg:col-span-3">
-              <img src="./assets/img5.png" alt="img5" class="h-52 w-full xl:h-auto 2xl:h-60">
+              <i class="fa-brands fa-js text-8xl text-yellow-400"></i>
+              <i class="fa-brands fa-react text-8xl text-blue-300"></i>
              </div>
           </div>
         </div>
