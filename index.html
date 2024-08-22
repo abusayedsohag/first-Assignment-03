@@ -34,6 +34,9 @@
               fontFamily: {
                 Manrope: ['Manrope', 'sans-serif'],
               },
+              backgroundImage: {
+                'form-bg': "url('./assets/bg.jpg')",
+              },
             },
           },
         }
@@ -214,6 +217,74 @@
              <div class="relative bg-white border border-gray-200 p-6 rounded-2xl lg:col-span-3">
               <img src="./assets/img5.png" alt="img5" class="h-52 w-full xl:h-auto 2xl:h-60">
              </div>
+          </div>
+        </div>
+      </section>
+      <!-- Article and News Section -->
+      <section>
+        <div class="w-4/5 mx-auto text-center py-8 lg:py-24">
+          <button class="bg-lime-100 px-4 py-2 rounded-3xl font-bold mb-3"><i class="fa-solid fa-arrow-right"></i> Explore our Latest works</button>
+          <h1 class="font-bold text-4xl">Our Latest Portfolio</h1>
+          <br>
+          <p class="font-medium text-gray-500 w-auto mx-auto lg:w-3/5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          <br>
+          <!-- Card section -->
+          <div class="grid grid-cols-1 gap-6 text-left lg:grid-cols-12 lg:grid-rows-2">
+            <!-- Card 1 -->
+             <div class="flex flex-col gap-6 bg-white border border-gray-200 p-6 rounded-2xl lg:flex-row lg:col-span-8">
+              <img src="./assets/img1.png" alt="img1">
+              <!-- Text Content -->
+              <div class="flex flex-col gap-4 lg:justify-between">
+                <h1 class="font-extrabold text-2xl">Commercial</h1>
+                <p class="font-medium text-gray-500">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                <h1 class="font-extrabold text-xl">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-green-arrow p-2 rounded-full"></i></h1>
+              </div>
+             </div>
+            <!-- Card 2 -->
+             <div class="bg-white border border-gray-200 p-6 rounded-2xl lg:col-span-4">
+              <img src="./assets/img2.png" alt="img2" class="h-52 w-full xl:h-auto 2xl:h-60">
+             </div>
+            <!-- Card 3 -->
+             <div class="bg-white border border-gray-200 p-6 rounded-2xl lg:col-span-3">
+              <img src="./assets/img3.png" alt="img3" class="h-52 w-full xl:h-auto 2xl:h-60">
+             </div>
+            <!-- Card 4 -->
+             <div class="flex flex-col gap-6 bg-white border border-gray-200 p-6 rounded-2xl lg:col-span-6 lg:flex-row">
+              <img src="./assets/img4.png" alt="img4">
+              <!-- text Content -->
+              <div class="flex flex-col gap-3 lg:justify-between">
+                <h1 class="font-extrabold text-2xl">Commercial</h1>
+                <p class="font-medium text-sm text-gray-500">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                <h1 class="font-extrabold text-xl">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-green-arrow p-2 rounded-full"></i></h1>
+              </div>
+             </div>
+            <!-- Card 5 -->
+             <div class="relative bg-white border border-gray-200 p-6 rounded-2xl lg:col-span-3">
+              <img src="./assets/img5.png" alt="img5" class="h-52 w-full xl:h-auto 2xl:h-60">
+             </div>
+          </div>
+        </div>
+      </section>
+      <!-- Project Form -->
+      <section class="bg-form-bg bg-no-repeat bg-cover">
+        <div class="w-4/5 mx-auto text-center py-8 lg:py-24">
+          <button class="bg-lime-50 px-4 py-2 rounded-3xl font-bold mb-3"><i class="fa-solid fa-arrow-right"></i> Explore our Latest works</button>
+          <h1 class="font-bold text-4xl">Our Latest Portfolio</h1>
+          <br>
+          <p class="font-medium text-gray-500 w-auto mx-auto lg:w-3/5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          <br>
+          <!-- Form Section -->
+          <div>
+            <form action="nextproject" class="grid gap-5 lg:grid-cols-2">
+              <input type="text" placeholder="First Name*" class="p-5 rounded-full placeholder:p-5">
+              <input type="text" placeholder="Last Name*" class="p-5 rounded-full placeholder:p-5">
+              <input type="number" placeholder="Phone Number*" class="p-5 rounded-full placeholder:p-5">
+              <input type="email" placeholder="Email Address*" class="p-5 rounded-full placeholder:p-5">
+              <textarea name="fill box" id="textArea" rows="10" placeholder="Write your message here" class="p-5 rounded-3xl placeholder:p-5 lg:col-span-2"></textarea>
+              <div class="h-16 flex justify-center items-center rounded-full bg-green-arrow lg:col-span-2">
+                <a class="font-extrabold text-xl">Sent Mail <i class="fa-solid fa-arrow-right -rotate-45 bg-black p-2 rounded-full text-white"></i></a>
+              </div>
+            </form>
           </div>
         </div>
       </section>
